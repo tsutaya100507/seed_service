@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import * as history from 'connect-history-api-fallback';
+
 
 Vue.config.productionTip = false
 
