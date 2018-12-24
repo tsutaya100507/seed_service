@@ -1,11 +1,6 @@
 <template>
-  <b-container>
+  <b-container class="container">
     <FirstView />
-    <b-row>
-      <b-col>saaaaaa</b-col>
-      <b-col>saaaaaa</b-col>
-      <b-col>saaaaaa</b-col>
-    </b-row>
     <BuisinessContent />
     <EngineerList />
     <Contact />
@@ -30,3 +25,9 @@ export default {
 }
 </script>
 
+<style scoped>
+ .container {
+   max-width: 100%;
+ }
+
+</style>

@@ -1,15 +1,22 @@
 <template>
   <footer>
-    footerfooter
+    <small>© 2018 shofukuda tatsuyaichikawa</small>
   </footer>
 </template>
 
-<script>
-export default {
-  
-}
-</script>
+<style>
+  footer {
+    position: relative;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #158A8A;
+    text-align: center;
+  }
 
-<style scoped>
-
+  small {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+  }
 </style>
