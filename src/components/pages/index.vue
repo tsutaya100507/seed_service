@@ -2,6 +2,7 @@
   <b-container class="container">
     <FirstView />
     <BuisinessContent />
+    <BuisinessSolution />
     <EngineerList />
     <Contact />
   </b-container>
@@ -12,6 +13,7 @@ import FirstView from '@/components/contents/firstView.vue'
 import BuisinessContent from '@/components/contents/buisinessContent.vue'
 import EngineerList from '@/components/contents/engineerList.vue'
 import Contact from '@/components/contents/contact.vue'
+import BuisinessSolution from '@/components/contents/buisinessSolution.vue'
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
   components: {
     FirstView,
     BuisinessContent,
+    BuisinessSolution,
     EngineerList,
     Contact,
   }  
