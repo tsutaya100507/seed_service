@@ -8,8 +8,9 @@
         <div class="site_title">Seed Service</div>
       </div>
       <div class="header_right">
-        <div class="businessContent">事業内容</div>
-        <div class="engineer_list">エンジニア一覧</div>
+        <div class="businessContent"><a href="#link_1">事業内容</a></div>
+        <div class="engineer_list"><a href="#link_2">エンジニア一覧</a></div>
+        <div class="engineer_list"><a href="#link_3">料金表</a></div>
         <div class="contact"><a href="https://goo.gl/forms/dKuFA8SZ3DNF30m72">お問い合わせ</a></div>
       </div>
     </div>
@@ -75,6 +76,10 @@ export default {
     font-size: 20px;
   }
 
+  .businessContent a {
+    color: black;
+  }
+
   .engineer_list {
     width: 100%;
     height: 50px;
@@ -82,6 +87,10 @@ export default {
     align-items: center;
     justify-content: center;
     font-size: 20px;
+  }
+
+  .engineer_list a {
+    color: black;
   }
 
   .contact {
